@@ -1,2 +1,2 @@
-# teamtreehouse-project-0
- this is my first project for teamtreehouse
+# Teamtreehouse Project 1
+ This is my first project for teamtreehouse
