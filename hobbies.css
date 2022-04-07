@@ -122,7 +122,6 @@ span{
   border-bottom: 4px solid #ccc;
   border-radius: 15px;
   transition: all .5s;
-  position: center;
   vertical-align: middle;
 }
 .card:hover {
