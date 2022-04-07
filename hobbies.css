@@ -2,6 +2,11 @@
 * { 
   box-sizing: border-box;
 }
+
+ul {
+  list-style-type: none;
+  display: inline;
+}
   
 body {
   margin: 0;
@@ -26,6 +31,11 @@ a {
 }
 a:hover {
   color: #6633ff;
+  cursor: pointer;
+}
+
+h3 {
+  text-align: center;
 }
 
 /* Section Styles */
@@ -90,12 +100,14 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-  vertical-align: middle;
 } 
-.location {
+.resume {
   background-color: #282828;
   color:#0399ff;
-  vertical-align: middle;
+  display: table;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
 }
 span{
   color: white;
@@ -139,12 +151,6 @@ ul.skills {
   transform: scale(1.1);
 }
 
-.read-more{
-  color: black;
-}
-.read-more :hover {
-  color: #f12b59;
-}
 
 footer {
   width: 100%;
