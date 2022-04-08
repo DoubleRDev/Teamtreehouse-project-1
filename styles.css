@@ -150,6 +150,10 @@ ul.skills {
   color: #f12b59;
 }
 
+.job-title{
+  list-style-type: none;
+}
+
 
 footer {
   width: 100%;
